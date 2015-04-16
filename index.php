@@ -20,10 +20,8 @@ if (!$sql) {
   die('Could not select: ' . mysql_error());
 }
 
-<a href="abc.php">Second Page</a>
 $result = mysql_fetch_array(mysql_query("select * from test"));
 print_r($result);
-echo "Table File change successfully\n";
     
 mysql_close($conn);
 ?>
