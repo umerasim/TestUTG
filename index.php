@@ -25,7 +25,7 @@ if (!$sql) {
 $result = mysql_fetch_array(mysql_query("select * from test"));
 print_r($result);
 
-echo "Table created successfully\n";
+echo "Table created successfully Edited\n";
     
 mysql_close($conn);
 ?>
