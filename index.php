@@ -4,6 +4,8 @@
 </head>
 <body>
 
+<a href="abc.php">2nd Page</a>
+
 <?php
 $dbhost = 'aajvbbd50ptip2.cyjkiyb0dtjx.us-west-2.rds.amazonaws.com:3306';
 $dbuser = 'netsol';
